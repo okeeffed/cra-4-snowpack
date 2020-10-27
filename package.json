@@ -15,7 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "dev": "snowpack dev --config snowpack.config.js"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +35,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.12.1",
+    "@snowpack/app-scripts-react": "^1.12.5",
+    "@snowpack/plugin-babel": "^2.1.4",
+    "rollup-plugin-node-polyfills": "^0.2.1",
+    "snowpack": "^2.15.1"
   }
 }
